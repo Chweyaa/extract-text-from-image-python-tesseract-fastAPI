@@ -5,7 +5,7 @@ from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 import io
 app = FastAPI()
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 
 @app.post("/ocr/")
